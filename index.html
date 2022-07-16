@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Good Vibes Form</h1>
+    <div class="container">
+      <p>Tell us something positive that happened to you today.</p>
+      <form action="">
+        <div id="name">
+          <label for="" class="label">Name</label>
+          <input type="text" placeholder="Enter your name" class="right" />
+        </div>
+        <div id="email">
+          <label for="" class="label">Email</label>
+          <input
+            type="email"
+            placeholder="Enter you email address"
+            class="right"
+          />
+        </div>
+        <div id="numberScale">
+          <label for="" class="label"
+            >On a scale of 1-10,how good was it?</label
+          >
+          <input
+            type="number"
+            placeholder="Enter a number between 1 and 10"
+            class="right"
+          />
+        </div>
+        <div id="eventplace">
+          <label for="" class="label">Where did it happen?</label>
+          <select name="" id="right" class="right">
+            <option value="" disabled>Select from below</option>
+            <option value="At home">At home</option>
+            <option value="At office">At office</option>
+            <option value="At college">At college</option>
+            <option value="At marketplace">At marketplace</option>
+            <option value="At ">At marketplace</option>
+          </select>
+        </div>
+        <div id="tod">
+          <label for="" class="label">At what time of day did it happen?</label>
+          <div class="tod-inner">
+            <div class="innerdiv">
+              <input type="radio" name="day-time" value="morning" /> morning
+            </div>
+            <div class="innerdiv">
+              <input type="radio" name="day-time" value="afternoon" /> afternoon
+            </div>
+            <div class="innerdiv">
+              <input type="radio" name="day-time" value="evening" /> evening
+            </div>
+            <div class="innerdiv">
+              <input type="radio" name="day-time" value="night" /> night
+            </div>
+          </div>
+        </div>
+        <div id="emotions">
+          <label for="" class="label"
+            >What emotions did you experience?(Select all that apply)</label
+          >
+          <div class="emotions-inner">
+            <div><input type="checkbox" />Excited</div>
+            <div><input type="checkbox" />Humbled</div>
+            <div><input type="checkbox" />Elated</div>
+            <div><input type="checkbox" />Loved</div>
+            <div><input type="checkbox" />Enthusiastic</div>
+          </div>
+        </div>
+        <div id="describe">
+          <label for="" class="label"
+            >Please describe your positive experience</label
+          >
+          <textarea
+            name="describe"
+            id="desc"
+            cols="30"
+            rows="3"
+            class="right"
+          ></textarea>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
